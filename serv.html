@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Волга-Сити</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" 
+          rel="stylesheet">
+    <link rel="stylesheet" href="style/shops.css">
+    <link rel="stylesheet" href="style/mslide.css">
+    <link rel="stylesheet" href="style/slick-theme.css">
+    <link rel="stylesheet" href="style/slick.css">
+    <link rel="stylesheet" href="style/mainslide/sliders.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="img/header_footer_icons/logo_218x66.svg" alt="Лого ТЦ" class="mall__logo">
+                        </a>
+                    </div>
+                    <div class="header__info">
+                        <div class="contacts">
+                            <div class="work__time">
+                                <div class="time__icon">
+                                    <img src="img/header_footer_icons/time_24x24.svg" alt="Часы" class="icon">
+                                </div>
+                                <div class="time">с 9.00 до 21.00</div>
+                                <div class="add__time">
+                                    <img src="img/header_footer_icons/Strelka_down_14x11.svg" alt="Стрелка вниз" class="icon">
+                                </div>
+                                <div class="dropdown">
+                                    <div class="dropdown__text">Торговая галерея с 9.00 до 21.00</div>
+                                    <div class="dropdown__text">Гипермаркет Магнит с 8.00 до 23.00</div>
+                                </div>
+                            </div>
+                            <div class="how__dest">
+                                <div class="dest__logo">
+                                    <img src="img/header_footer_icons/direct_24x24.svg" alt="Как добраться" class="icon">
+                                </div>
+                                <div class="dest__title">Как добраться</div>
+                            </div>
+                            <div class="phone">
+                                <div class="phone__title">
+                                    +7 (8512) 35-16-03
+                                </div>
+                            </div>
+                            <div class="soc__networks">
+                                <div class="fb">
+                                    <img src="img/header_footer_icons/fb1_32x32.svg" alt="Фейсбук" class="fb__logo">
+                                </div>
+                                <div class="inst">
+                                    <img src="img/header_footer_icons/insta1_32x32.svg" alt="Инстаграмм" class="inst__logo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu__wrapper">
+                            <nav class="menu">
+                                <a href="shops.html" class="menu__link">Магазины</a>
+                                <a href="food.html" class="menu__link">Еда</a>
+                                <a style="color: #03B6E1;" href="serv.html" class="menu__link">Услуги</a>
+                                <a href="#" class="menu__link">События</a>
+                                <a href="#" class="menu__link">Схема ТЦ</a>
+                                <a href="arenda.html" class="menu__link">Арендаторам</a>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+                
+                        <div class="menu__box">
+                            <div class="mobile__menu__links">
+                                <a class="menu__item" href="shops.html">Магазины</a>
+                                <a class="menu__item" href="food.html">Еда</a>
+                                <a class="menu__item" href="serv.html">Услуги</a>
+                                <a class="menu__item" href="#">События</a>
+                                <a class="menu__item" href="#">Схема ТЦ</a>
+                                <a class="menu__item" href="arenda.html">Арендаторам</a>
+                            </div>
+                            <div class="mobile__menu__info">
+                                <div class="work__time">
+                                    <div class="time__icon">
+                                        <img src="img/header_footer_icons/time_24x24.svg" alt="Часы" class="icon">
+                                    </div>
+                                    <div class="time">с 9.00 до 21.00</div>
+                                </div>
+                                <div class="how__dest">
+                                    <div class="dest__logo">
+                                        <img src="img/header_footer_icons/direct_24x24.svg" alt="Как добраться" class="icon">
+                                    </div>
+                                    <div class="dest__title">Как добраться</div>
+                                </div>
+                                <div class="phone">
+                                    <div class="phone__title">
+                                        +7 (8512) 35-16-03
+                                    </div>
+                                </div>
+                                <div class="soc__networks">
+                                    <div class="fb">
+                                        <img src="img/header_footer_icons/fb1_32x32.svg" alt="Фейсбук" class="fb__logo">
+                                    </div>
+                                    <div class="inst">
+                                        <img src="img/header_footer_icons/insta1_32x32.svg" alt="Инстаграмм" class="inst__logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="secfotWrap">    
+            <section class="shopSection">
+                <div class="container">
+                    <div class="shopsWrapper">
+                        <div class="shopsFilterWrapper">
+                            <div class="mainFiterWrapper">
+                                <div class="shops-nav-block">
+                                    <div class="type-of-sort-wrapper">
+                                        <div class="type-of-sort active upc" id="sort-cat">По категориям</div>
+                                        <div class="type-of-sort upc" id='sort-alph'>По алфавиту</div>
+                                        <div class="type-of-sort upc"><a href="/map">На схеме ТЦ</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="secondFilterWrapper">
+                                <div class="nav-sort-cat-wr">
+                                    <div class="nav-sort-cat" style="width: 100%!important;">
+                                        <div class="nav-sort-cat__all">
+                                            <div data-cat="all" class="nav-sort-cat__elem active" id="sort__all">Все</div>
+                                        </div>
+                                        <div class="nav-sort-cat__nav">
+                                            <div data-cat="1" class="nav-sort-cat__elem">Мастерские</div>
+                                            <div data-cat="2" class="nav-sort-cat__elem">Красота и здоровье</div>
+                                            <div data-cat="3" class="nav-sort-cat__elem">Фотоуслуги</div>
+                                            <!-- <div data-cat="4" class="nav-sort-cat__elem">Сумки</div> -->
+                                            <div data-cat="5" class="nav-sort-cat__elem">Развлечения</div>
+                                            <div data-cat="6" class="nav-sort-cat__elem">Техника и электроника</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-sort-alph-wr">
+                                    <div class="nav-sort-alph">
+                                        <div class="f">Все 0-9</div>
+                                        <div>
+                                            <p>А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Э Ю Я</p>
+                                            <p>А B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopsMainWrapper">
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="6">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">1 этаж</div>
+                                        <div class="main-dis">Яндекс.Маркет</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="1">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">1 этаж</div>
+                                        <div class="main-dis">Ювелирная мастерская</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="1">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">1 этаж</div>
+                                        <div class="main-dis">Ремонт часов</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="2">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">1 этаж</div>
+                                        <div class="main-dis">Химчистка «Белизна»</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="3">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">1 этаж</div>
+                                        <div class="main-dis">Konica</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="1">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">1 этаж</div>
+                                        <div class="main-dis">Топ сервис</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="1">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">1 этаж</div>
+                                        <div class="main-dis">Ключи и заточка</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="2">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">1 этаж</div>
+                                        <div class="main-dis">Family Club</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="5">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">0 этаж</div>
+                                        <div class="main-dis">Гамбит</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__wrapper">
+                        <div class="footer__logo">
+                            <img src="img/header_footer_icons/logo2_218x66.svg" alt="Лого ТЦ" class="mall__logo">
+                        </div>
+                        <div class="mall__adress">
+                            <div class="adress">г. Астрахань, пр. Воробьева, д. 10</div>
+                            <div class="email">info@volga-city.com</div>
+                        </div>
+                        <div class="mall__phones">
+                            <div class="mall__phone">+7 (8512) 35-16-03</div>
+                            <div class="mall__phone">+7 (8512) 35-16-46</div>
+                        </div>
+                        <div class="soc__networks">
+                            <div class="fb">
+                                <img src="img/header_footer_icons/fb2_32x32.svg" alt="Фейсбук" class="fb__logo">
+                            </div>
+                            <div class="inst">
+                                <img src="img/header_footer_icons/insta2_32x32.svg" alt="Инстаграмм" class="inst__logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="./script/script.js"></script>
+<script src="./script/main.js"></script>
+</html>

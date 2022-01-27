@@ -9,7 +9,7 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" 
           rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/shops.css">
     <link rel="stylesheet" href="style/mslide.css">
     <link rel="stylesheet" href="style/slick-theme.css">
     <link rel="stylesheet" href="style/slick.css">
@@ -65,7 +65,7 @@
                         <div class="menu__wrapper">
                             <nav class="menu">
                                 <a href="shops.html" class="menu__link">Магазины</a>
-                                <a href="food.html" class="menu__link">Еда</a>
+                                <a style="color: #03B6E1;" href="food.html" class="menu__link">Еда</a>
                                 <a href="serv.html" class="menu__link">Услуги</a>
                                 <a href="#" class="menu__link">События</a>
                                 <a href="#" class="menu__link">Схема ТЦ</a>
@@ -121,137 +121,85 @@
                 </div>
             </div>
         </header>
-
-        <section class="slider">
-            <div class="container">
-                <div class="main-slide">
-                    <img src="img/slider/banner_1160х432.png">
-                    <img src="img/slider/summer_banner.png">
-                </div>
-            </div>
-        </section>
-
-        <section class="office__miniinf">
-            <div class="container">
-                <div class="miniinf__cards">
-                    <div class="miniinf__card card__one">
-                        <div class="card__icon">
-                            <img src="img/card_icons/bus_55x55.svg" alt="Автобус" class="icon">
-                        </div>
-                        <div class="card__title">
-                            Транспортная<br> доступность
-                        </div>
-                    </div>
-                    <div class="miniinf__card card__two">
-                        <div class="card__icon">
-                            <img src="img/card_icons/bags_55x55.svg" alt="Сумки" class="icon">
-                        </div>
-                        <div class="card__title">
-                            3 этажа<br> магазинов
-                        </div>
-                    </div>
-                    <div class="miniinf__card card__three">
-                        <div class="card__icon">
-                            <img src="img/card_icons/square_55x55.svg" alt="Площадь" class="icon">
-                        </div>
-                        <div class="card__title">
-                            14000 м<sup>2</sup><br> общая площадь
-                        </div>
-                    </div>
-                    <div class="miniinf__card card__four">
-                        <div class="card__icon">
-                            <img src="img/card_icons/parking_55x55.svg" alt="Парковка" class="icon">
-                        </div>
-                        <div class="card__title">
-                            Парковка<br> бесплатно
-                        </div>
-                    </div>
-                    <div class="miniinf__card card__five">
-                        <div class="card__icon">
-                            <img src="img/card_icons/food_55x55.svg" alt="Еда" class="icon">
-                        </div>
-                        <div class="card__title">Продуктовый<br> супермаркет</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="shops">
-            <div class="container">
-                <div class="shops__wrapper">
-                    <div class="shops__maintitle">
-                        Магазины
-                    </div>
-                    <div class="mini-slider-display col-4">
-                        <div class="slider-ctrl ctrl-4-col">
-                            <button class="left-slide light" id="left-4col"></button>
-                            <button class="right-slide light" id="right-4col"></button>
-                        </div>
-                        <div class="slider-4-window">
-                            <div class="slider-4-line"></div>
-                        </div>
-                    </div>
-
-                    <div class="shops__btn">
-                        <a href="shops.html" class="btn">Все магазины</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="events">
-            <div class="container">
-                <div class="events__wrapper">
-                    <div class="events__maintitle">
-                        События
-                    </div>
-                    <div class="mini-slider-display col-3">
-                        <div class="slider-ctrl col-3">
-                            <button class="left-slide dark" id="left-3col"></button>
-                            <button class="right-slide dark" id="right-3col"></button>
-                        </div>
-                        <div class="slider-3-window">
-                            <div class="slider-3-line"></div>
-                        </div>
-                    </div>
-
-                    <div class="events__btn">
-                        <a href="#" class="btn">Все события</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__wrapper">
-                    <div class="footer__logo">
-                        <img src="img/header_footer_icons/logo2_218x66.svg" alt="Лого ТЦ" class="mall__logo">
-                    </div>
-                    <div class="mall__adress">
-                        <div class="adress">г. Астрахань, пр. Воробьева, д. 10</div>
-                        <div class="email">info@volga-city.com</div>
-                    </div>
-                    <div class="mall__phones">
-                        <div class="mall__phone">+7 (8512) 35-16-03</div>
-                        <div class="mall__phone">+7 (8512) 35-16-46</div>
-                    </div>
-                    <div class="soc__networks">
-                        <div class="fb">
-                            <img src="img/header_footer_icons/fb2_32x32.svg" alt="Фейсбук" class="fb__logo">
-                        </div>
-                        <div class="inst">
-                            <img src="img/header_footer_icons/insta2_32x32.svg" alt="Инстаграмм" class="inst__logo">
+        <div class="secfotWrap">    
+            <section class="shopSection">
+                <div class="container">
+                    <div class="shopsWrapper">
+                        <div class="shopsMainWrapper">
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="9">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">1 этаж</div>
+                                        <div class="main-dis">Магнит</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="6">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">1 этаж</div>
+                                        <div class="main-dis">Fix Price</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="10">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">улица</div>
+                                        <div class="main-dis">Сеньор Дёнер</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shopsCard">
+                                <a href="/shops/adidas/">
+                                    <div class="shops-card shp-card" data-shop="5">
+                                        <div class="hidden-img"><img src="img/shops/big_imgs/GJ_275_275.png"></div>
+                                        <div class="img-wr"><img src="img/shops/little_imgs/GJ_275_180.svg"></div>
+                                        <div class="level-dis">улица</div>
+                                        <div class="main-dis">Мороженое «Славица»</div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__wrapper">
+                        <div class="footer__logo">
+                            <img src="img/header_footer_icons/logo2_218x66.svg" alt="Лого ТЦ" class="mall__logo">
+                        </div>
+                        <div class="mall__adress">
+                            <div class="adress">г. Астрахань, пр. Воробьева, д. 10</div>
+                            <div class="email">info@volga-city.com</div>
+                        </div>
+                        <div class="mall__phones">
+                            <div class="mall__phone">+7 (8512) 35-16-03</div>
+                            <div class="mall__phone">+7 (8512) 35-16-46</div>
+                        </div>
+                        <div class="soc__networks">
+                            <div class="fb">
+                                <img src="img/header_footer_icons/fb2_32x32.svg" alt="Фейсбук" class="fb__logo">
+                            </div>
+                            <div class="inst">
+                                <img src="img/header_footer_icons/insta2_32x32.svg" alt="Инстаграмм" class="inst__logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
 </body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="script/mslide.js"></script>
-<script src="script/sliders_main.js"></script>
-<script src="script/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="./script/script.js"></script>
+<script src="./script/main.js"></script>
 </html>
